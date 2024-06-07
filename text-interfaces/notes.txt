@@ -1,0 +1,50 @@
+you can fetch chunks while parsing them
+you can send while receiving
+you can receive while sending
+
+create a jump table based on commutative types
+
+sync in grid
+
+whilst read write
+
+for line in filedir
+  f = open(line).read()
+  lines = f.split("\n")
+  parse(comps)
+
+different grids
+
+parallel 
+  reading director listing
+  reading file data
+  splitting
+  parsing
+  compiling
+  threads
+  coroutines
+
+
+  record field field field
+  record field field field
+  record field field field
+
+ create table files (filename);
+ create table file_data (filename);
+ create table file_sections ();
+ create table splited_file;
+ create table parsed (token);
+ create table compiled (function, block);
+
+ columns go across
+ rows go down
+
+regex matches on sequences of field progressions
+
+effects to table
+
+algebra simd
+
+APL tranducers
+write programs over control flow, not data
+

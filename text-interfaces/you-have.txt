@@ -1,0 +1,51 @@
+You have: 96 vcpus, 2 Terabyte storage, 192gb RAM
+
+You have 10 customers paying £10 a month
+
+Your pizza is being made
+
+loaded encrypting(10%)
+
+data
+4GB thread safe buffers
+thread1 rate - 150 items per second
+thread2 rate - 450 items per second
+threas3 rate - 800 items per second
+
+12 customers
+
+Latency for feed - 3ms
+
+First Name:
+Last Name:
+
+api versions
+0.1
+0.2
+
+accomplishments
+skills
+qualifications
+projects
+hobbies
+
+SIMULTANEOUSLY
+
+number of messages
+1 - x - x
+
+x y z = m d c
+
+State name: xxx
+
+one thread
+ -> every other thread
+
+
+load balancer
+ items
+ handler
+
+1 
+2  
+3

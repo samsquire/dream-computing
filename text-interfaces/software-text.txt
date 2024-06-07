@@ -1,0 +1,17 @@
+pagination
+load-balancing
+rate-limiting
+
+
+control flow graph
+
+stashing events for later, thats context waiting for other things to happen
+
+drain events
+
+queue("send-email | do-something")
+
+add code to the parser
+
+serving-10-requests 100-database-queries 1000-rps 1000-coroutines
+

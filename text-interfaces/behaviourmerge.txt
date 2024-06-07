@@ -1,0 +1,111 @@
+import load-balancer
+import rate-limiter
+import backoff
+import retries
+import batching
+import backpressure
+
+import load-balancer
+import rate-limiter
+import backoff
+import retries
+import batching
+import backpressure
+
+hierarchy of state, instances
+
+server1
+server2
+work
+60 seconds
+batch size 100
+
+executed requests
+bucket
+
+mv
+
+timeline
+|1S 2S 3S 4F|
+
+pick-timebucket | rate-check | pick-server | batch-recv | backoff | backpressure | retry | increment-rate
+
+do the same code for sending and recving
+
+no returnvalues, movement only
+control flow is pattern matched
+
+expression to move
+
+work
+
+timebucket = time / 100 seconds
+mv work timebucket
+
+if timebucket != last_timebucket:
+  clear last_timebucket
+
+if current >= limit:
+  mv fail fail
+else:  
+  mv success success
+  current++
+
+when does a paused function resume?
+asking for new item
+
+
+
+
+when does a function start at the top and when at its place
+
+reentrant functions
+call from beginning or from paused point?
+how to invoke
+
+load balancing
+
+for server in range(last, len(servers)):
+  if up(server):
+    mv server handle
+    mv server up
+    mv server last
+    yield
+  if down(server):
+    mv server down
+
+every 1 / 25 seconds
+
+insert b tokens
+
+its a bit like dynamic scope established at compile time
+
+can write code that has intersections in collections
+can trigger on multiple mvs
+
+if a firing depends on multiple
+
+cep
+
+functional equivalent? of movement
+
+when you splice code in how do you match variables?
+
+functions that is stretched across regions
+
+control flow movement
+ mv me event
+
+can queue up multiple
+
+ownership movement hierarchical, association
+mv work something.timebucket
+
+turn something that is a function into a relation by arrays
+
+every variable is a relation for automated relation but also lowerable into machine registers
+
+timeline driven development
+behaviour movement
+
+arbitrary data structure pralellisation
